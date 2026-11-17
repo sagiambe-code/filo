@@ -19,6 +19,8 @@ a:hover{color:var(--accent)}
 .menubtn{display:none;min-height:44px;padding:0 16px;border:1px solid var(--line);background:none;color:var(--ink);cursor:pointer}
 .menubtn:hover{border-color:var(--accent);color:var(--accent)}
 .hnav .navlinks{margin-left:0;justify-content:center;gap:0 28px}
+.mbr{display:none}
+@media (max-width:760px){.topbar{flex-wrap:nowrap !important}.open-status{display:none !important}.mbr{display:inline}.sep{display:none}.sign{line-height:1.7}}
 @media (max-width:760px){
 .navlinks{display:none}
 .menubtn{display:inline-flex;align-items:center}
