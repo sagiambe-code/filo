@@ -7,7 +7,7 @@ Prototipo statico del sito di **Filo** (filobottega.it): sei pagine in HTML, CSS
 | File | Pagina |
 | --- | --- |
 | `index.html` | Home |
-| `servizi.html` | Servizi |
+| `insegna-accesa.html` | Insegna accesa, l’offerta della bottega |
 | `lavori.html` | Lavori, con il racconto di Mey |
 | `bottega-aperta.html` | Bottega aperta, con la checklist interattiva |
 | `chi-ce-dietro.html` | Chi c'è dietro |
