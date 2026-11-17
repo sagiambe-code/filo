@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bottega aperta — Filo</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&amp;display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem('filo-theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('is-dark')}catch(e){}</script>
+</head>
+<body>
+<div class="pg" data-root style="min-height: 100vh">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px)">
+
+<header class="nav" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 0 18px; border-bottom: 1px solid var(--ink)">
+<a href="index.html" class="h" aria-label="Filo, torna alla home" style="font-size: 44px; font-weight: 700; letter-spacing: -.055em; line-height: 1">F<svg class="logo-bulb" viewBox="0 0 24 74" aria-hidden="true"><path class="glass" d="M12 0 C 20 0 24 7 24 15 C 24 23 19 28 17.5 33 L 17.5 38 L 6.5 38 L 6.5 33 C 5 28 0 23 0 15 C 0 7 4 0 12 0 Z" fill="var(--accent)"></path><rect x="6.5" y="39.5" width="11" height="34.5" fill="currentColor"></rect></svg><span style="letter-spacing: -.005em">l</span>o</a>
+<div class="ctl">
+<button class="menubtn m" type="button" aria-expanded="false" aria-controls="menu" data-menu>Menu</button>
+<button class="lamp" type="button" aria-label="Spegni la luce" data-lamp>
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path class="bulb" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1 2V16h5.2v-.2c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"></path></svg>
+</button>
+</div>
+<nav id="menu" class="navlinks" aria-label="Menu">
+<a href="servizi.html" class="m">Servizi</a>
+<a href="lavori.html" class="m">Lavori</a>
+<a href="bottega-aperta.html" class="m here" aria-current="page">Bottega aperta</a>
+<a href="chi-ce-dietro.html" class="m">Chi c’è dietro</a>
+<a href="contatti.html" class="m">Contatti</a>
+</nav>
+</header>
+
+<section style="padding: clamp(48px, 8vw, 104px) 0 clamp(40px, 6vw, 72px)">
+<p class="m" style="margin: 0 0 24px; color: var(--mute)">Bottega aperta</p>
+<h1 class="h" style="margin: 0; font-size: clamp(44px, 6.4vw, 92px); line-height: .92; font-weight: 600; letter-spacing: -.045em">Prendete pure,<br>è gratis.</h1>
+<p style="margin: 32px 0 0; max-width: 34em; font-size: clamp(19px, 1.7vw, 22px); line-height: 1.5">Attrezzi che la bottega usa ogni giorno, lasciati sul banco per artigiani, professionisti e piccole attività. Nessuna mail in cambio, anche per chi non scriverà mai.</p>
+</section>
+
+<section id="lista" style="border-top: 1px solid var(--ink); padding: 48px 0 72px; display: flex; flex-wrap: wrap; gap: 32px 64px">
+<div style="flex: 1 1 280px; min-width: 0">
+<p class="m" style="margin: 0 0 14px; color: var(--accent)">Strumento</p>
+<h2 class="h" style="margin: 0 0 16px; font-size: clamp(30px, 3.4vw, 44px); line-height: 1; font-weight: 600">La lista prima<br>di andare online</h2>
+<p style="margin: 0 0 24px; font-size: 18px; line-height: 1.5">Tredici cose da controllare prima di dire a tutti «il sito è pronto». Spunta man mano.</p>
+<p class="h" style="margin: 0 0 6px; font-size: 22px; font-weight: 600" aria-live="polite" data-progress>Da cominciare</p>
+<button type="button" class="reset m" data-reset>Ricomincia da capo</button>
+</div>
+<div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 32px">
+<fieldset style="border: 0; margin: 0; padding: 0">
+<legend class="m" style="padding: 0 0 6px; color: var(--mute)">Parole e immagini</legend>
+<label class="chk"><input type="checkbox" data-check="a0"><span>Ogni pagina ha un titolo che dice cosa c’è dentro</span></label>
+<label class="chk"><input type="checkbox" data-check="a1"><span>La pagina Chi sono è scritta, e l’ha riletta qualcun altro</span></label>
+<label class="chk"><input type="checkbox" data-check="a2"><span>Le foto pesano poco, sotto i 300 KB ciascuna</span></label>
+<label class="chk"><input type="checkbox" data-check="a3"><span>Ogni immagine ha un testo alternativo</span></label>
+</fieldset>
+<fieldset style="border: 0; margin: 0; padding: 0">
+<legend class="m" style="padding: 0 0 6px; color: var(--mute)">Tecnica</legend>
+<label class="chk"><input type="checkbox" data-check="b0"><span>Il sito si legge bene sul telefono</span></label>
+<label class="chk"><input type="checkbox" data-check="b1"><span>C’è l’icona del sito nella scheda del browser</span></label>
+<label class="chk"><input type="checkbox" data-check="b2"><span>L’indirizzo comincia con https</span></label>
+<label class="chk"><input type="checkbox" data-check="b3"><span>Il modulo di contatto arriva davvero: prova a scriverti</span></label>
+<label class="chk"><input type="checkbox" data-check="b4"><span>Una pagina inesistente mostra un messaggio gentile</span></label>
+</fieldset>
+<fieldset style="border: 0; margin: 0; padding: 0">
+<legend class="m" style="padding: 0 0 6px; color: var(--mute)">Regole e dopo</legend>
+<label class="chk"><input type="checkbox" data-check="c0"><span>Informativa privacy e cookie sono pubblicate</span></label>
+<label class="chk"><input type="checkbox" data-check="c1"><span>Nel piè di pagina c’è la partita IVA, se ce l’hai</span></label>
+<label class="chk"><input type="checkbox" data-check="c2"><span>Il sito è collegato a Google Search Console</span></label>
+<label class="chk"><input type="checkbox" data-check="c3"><span>Esiste una copia di sicurezza, e sai dove</span></label>
+</fieldset>
+</div>
+</section>
+
+<section style="border-top: 1px solid var(--ink); padding: 48px 0 72px">
+<p class="m" style="margin: 0 0 32px; color: var(--mute)">Guide</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px">
+<a href="#" style="display: flex; flex-direction: column; gap: 14px; background: var(--card); border: 1px solid var(--line); padding: 28px 28px 32px">
+<span class="m" style="color: var(--accent)">Guida</span>
+<span class="h" style="font-size: 30px; font-weight: 600; line-height: 1.05">Come scrivere<br>la pagina Chi sono</span>
+<span style="font-size: 18px; line-height: 1.5">La pagina più letta e più trascurata di ogni sito. Dentro: le cinque domande da farsi prima di scrivere, gli errori più comuni, tre esempi ben riusciti.</span>
+<span class="m" style="border-bottom: 1px solid currentColor; align-self: flex-start; padding-bottom: 2px">Leggi la guida</span>
+</a>
+<a href="#" style="display: flex; flex-direction: column; gap: 14px; background: var(--card); border: 1px solid var(--line); padding: 28px 28px 32px">
+<span class="m" style="color: var(--accent)">Guida</span>
+<span class="h" style="font-size: 30px; font-weight: 600; line-height: 1.05">Fotografare un prodotto<br>con il telefono</span>
+<span style="font-size: 18px; line-height: 1.5">Una finestra, un foglio bianco e un po’ di pazienza. Dentro: dove mettere il prodotto, come usare la luce, come scattare e come scegliere la foto giusta.</span>
+<span class="m" style="border-bottom: 1px solid currentColor; align-self: flex-start; padding-bottom: 2px">Leggi la guida</span>
+</a>
+</div>
+</section>
+
+<section style="border-top: 1px solid var(--line); padding: clamp(48px, 8vw, 88px) 0; text-align: center">
+<p style="margin: 0 auto 24px; max-width: 26em; font-size: 22px; line-height: 1.45; font-style: italic">Se la lista ti ha lasciato qualche dubbio, la bottega guarda il tuo sito da fuori e te lo dice per iscritto.</p>
+<a href="servizi.html" class="m" style="border-bottom: 1px solid var(--accent); padding-bottom: 2px">Il tuo sito, da fuori</a>
+</section>
+
+<footer style="border-top: 1px solid var(--ink); padding: 24px 0 40px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px">
+<span class="m" style="color: var(--mute)">Filo, bottega creativa · Salvatore [Cognome] · Marsala</span>
+<span class="m" style="color: var(--mute)"><a href="mailto:ciao@filobottega.it" style="color: var(--mute)">ciao@filobottega.it</a> · P. IVA [da inserire] · Privacy</span>
+</footer>
+
+</div>
+</div>
+<script src="assets/main.js"></script>
+</body>
+</html>
