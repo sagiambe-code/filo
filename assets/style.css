@@ -5,7 +5,7 @@ img,svg{max-width:100%}
 .pg{--paper:#F3F0E8;--ink:#151411;--mute:#5E5A52;--line:rgba(21,20,17,.22);--accent:#D9432B;--frame:#FBF9F4;--ph:#DDD7C9;--card:#EEEADF;--swash:#E3DCCB;background:var(--paper);color:var(--ink);font-family:'Literata',Georgia,serif}
 .pg.dark{--paper:#151411;--ink:#ECE8DE;--mute:#A8A397;--line:rgba(236,232,222,.22);--accent:#E8573F;--frame:#ECE8DE;--ph:#2C2A25;--card:#1D1B18;--swash:#26231F}
 .h{font-family:'Inter Tight',system-ui,sans-serif;letter-spacing:-.025em}
-.m{font-family:'JetBrains Mono',ui-monospace,monospace;text-transform:uppercase;font-size:11.5px;letter-spacing:.08em}
+.m{font-family:'JetBrains Mono',ui-monospace,monospace;text-transform:uppercase;font-size:12.5px;letter-spacing:.09em}
 a{color:var(--ink);text-decoration:none}
 a:hover{color:var(--accent)}
 .lamp{background:none;border:1px solid var(--line);color:var(--ink);width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer}
