@@ -43,6 +43,11 @@ a:hover{color:var(--accent)}
 .pg{--paper:#F3F0E8;--ink:#151411;--mute:#5E5A52;--line:rgba(21,20,17,.22);--accent:#D9432B;--frame:#FBF9F4;--card:#EEEADF;background:var(--paper);color:var(--ink);font-family:'Literata',Georgia,serif}
 .pg.dark{--paper:#151411;--ink:#ECE8DE;--mute:#A8A397;--line:rgba(236,232,222,.22);--accent:#E8573F;--frame:#ECE8DE;--card:#1D1B18}
 .here{color:var(--accent)}
+.perchi-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:32px}
+@media (max-width:1000px){.perchi-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:640px){.perchi-grid{grid-template-columns:minmax(0,1fr)}}
+.hero-pol{flex:0 1 360px;max-width:400px;margin:0 0 0 auto;transform:rotate(-1.6deg)}
+@media (max-width:760px){.hero-pol{flex-basis:100%;max-width:340px;margin:8px auto 0}}
 .chk{display:flex;gap:14px;align-items:flex-start;min-height:44px;padding:10px 0;border-bottom:1px solid var(--line);cursor:pointer;font-size:18px;line-height:1.45}
 .chk input{appearance:none;-webkit-appearance:none;flex:0 0 22px;width:22px;height:22px;margin:2px 0 0;border:1.5px solid var(--ink);background:transparent;cursor:pointer;display:grid;place-content:center}
 .chk input:checked{background:var(--accent);border-color:var(--accent)}

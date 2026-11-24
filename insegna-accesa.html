@@ -32,15 +32,21 @@
 </nav>
 </header>
 
-<section style="padding: clamp(48px, 8vw, 104px) 0 clamp(40px, 6vw, 72px)">
+<section style="padding: clamp(48px, 8vw, 104px) 0 clamp(40px, 6vw, 72px); display: flex; flex-wrap: wrap; align-items: center; gap: 40px 64px">
+<div style="flex: 1 1 400px; min-width: 0">
 <p class="m" style="margin: 0 0 24px; color: var(--mute)">La proposta della bottega</p>
 <h1 class="h" style="margin: 0; font-size: clamp(44px, 6.4vw, 92px); line-height: .92; font-weight: 600; letter-spacing: -.045em">Insegna<br>accesa.</h1>
 <p style="margin: 32px 0 0; max-width: 34em; font-size: clamp(19px, 1.7vw, 22px); line-height: 1.5">In una bottega l’insegna serve a dire a chi passa che sei aperto. Online è lo stesso: un sito scritto bene, la scheda Google in ordine e, se i tuoi clienti arrivano anche dall’estero, tutto anche in inglese. È la proposta di Filo, per farti trovare da chi ti sta già cercando.</p>
+</div>
+<figure class="hero-pol" style="background: var(--frame); padding: 12px 12px 0; box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 10px 30px rgba(0,0,0,.09)">
+<img src="img/bottega-sera.jpg" alt="La vetrina di una bottega al tramonto, con la luce calda accesa dentro e un filo vermiglio appeso a un chiodo sullo stipite" width="928" height="1152" style="display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; background: var(--ph)">
+<figcaption style="font-style: italic; font-size: 16px; color: #3A3732; padding: 14px 4px 18px">Dalla strada si vede se sei aperto.</figcaption>
+</figure>
 </section>
 
 <section aria-labelledby="perchi" style="border-top: 1px solid var(--ink); padding: 48px 0 72px">
 <h2 id="perchi" class="m" style="margin: 0 0 32px; color: var(--mute); font-weight: 400">Per chi</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px 32px">
+<div class="perchi-grid">
 <div style="border-top: 2px solid var(--ink); padding-top: 18px">
 <h3 class="h" style="margin: 0 0 8px; font-size: 22px; font-weight: 600; line-height: 1.1">Professionisti e studi</h3>
 <p style="margin: 0; font-size: 17px; line-height: 1.5">Chi ti sceglie per nome, prima di chiamarti, ti cerca su Google.</p>
